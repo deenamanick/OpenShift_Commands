@@ -64,3 +64,36 @@ oc get route --all-namespaces
 oadm manage-node <node1> <node2> --schedulable=false
 
 oadm manage-node <node1> <node2> --schedulable
+
+------------
+To find out the labels
+
+oc get all --show-labels
+
+------------
+To describe endpoint for particular project
+
+oc describe endpoints -n projectname
+
+------------
+To allow image pulling 
+
+oadm policy add-cluster-role-to-group system:image-puller system:authenticated -n NAMESPACE
+
+------------
+To list project without header
+
+oc get project -o name |cut -d '/' -f2
+
+-------------
+To find out running Pod in all namespaces
+
+oc get po --all-namespaces |egrep -c Running
+
+-------------
+
+
+
+
+
+
