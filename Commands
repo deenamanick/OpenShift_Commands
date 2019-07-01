@@ -33,7 +33,7 @@ To find out rolebinding assigned for the Project
 To give admin access to project
 
 oc get project
-oc project ice-checkin
+oc project projectname
 
 oc adm policy add-role-to-user admin <User> -n <Project>
 
