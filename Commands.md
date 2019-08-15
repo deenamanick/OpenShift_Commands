@@ -1,6 +1,9 @@
 To Find out limits being set For the Project
 
-#oc get limits -n ProjectName
+```
+oc get limits -n ProjectName
+
+sample output
 
 [xxxx@xxxx ~]$ oc describe limits core-resource-limits -n NAMESPACE
 Name:                           core-resource-limits
@@ -15,20 +18,22 @@ openshift.io/Image              storage                 -       1Gi     -       
 openshift.io/ImageStream        openshift.io/image-tags -       20      -               -               -
 openshift.io/ImageStream        openshift.io/images     -       10      -               -               -
 
-
+```
 ---------
 
 To Provide View access to the User In OCP
 
-#oc adm policy add-role-to-user view Mack -n NAMESPACE
+```
+oc adm policy add-role-to-user view Mack -n NAMESPACE
 
----------
+```
 
 To find out rolebinding assigned for the Project
 
-#oc get rolebinding -n NAMESPACE
+```
+oc get rolebinding -n NAMESPACE
 
-----------
+```
 
 To give admin access to project
 
