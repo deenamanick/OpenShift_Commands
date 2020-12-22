@@ -14,3 +14,7 @@ https://www.redhat.com/cms/managed-files/cl-cloud-native-container-design-whitep
 ## Introduction to Security Contexts and SCCs
 
 https://www.openshift.com/blog/introduction-to-security-contexts-and-sccs
+
+## Knowledge Base for Openshift
+
+https://deepkb.com/CO_000017/en/organizer/IMPORT-BOOK-4875d534-783f-3037-8f2d-186fb38ce7e6/Latest%20Documentation
